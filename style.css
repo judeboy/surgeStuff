@@ -1,0 +1,54 @@
+
+body {font-family: "Lato", sans-serif;}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("/Users/judahtrimmer/Documents/Galvanize - Random/Personal Website/Images/sunset.jpg");
+
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/Users/judahtrimmer/Documents/Galvanize - Random/Personal Website/Images/peru.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/Users/judahtrimmer/Documents/Galvanize - Random/Personal Website/Images/town.JPG");
+    min-height: 400px;
+}
+
+
+
+@media (hover: hover) {
+  a:hover {
+    background: grey;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+\
